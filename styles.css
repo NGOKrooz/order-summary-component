@@ -1,0 +1,145 @@
+body {
+    background-color: lightgrey;
+    text-align: center;
+
+}
+
+.sharp {
+    width: 500px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+
+}
+
+.img {
+    width: inherit;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.soft {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: -10px;
+    font-family: sans-serif;
+}
+
+.article {
+    font-size: 20px;
+    color: grey;
+    font-family: monospace;
+}
+
+.icon {
+    width: 50px;
+    border-radius: 18px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.chill p {
+    display: inline-block;
+    width: 40%;
+    margin: -5px;
+
+}
+
+.chill {
+    background-color: rgb(236, 230, 230);
+    border-radius: 20px;
+}
+
+
+.link {
+    text-align: right;
+    font-size: 20px;
+  
+
+}
+
+.black {
+    color: black;
+}
+
+.price {
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+section .button {
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+
+}
+
+.button {
+    font-size: 18px;
+    padding: 20px 115px;
+    margin: 10px;
+    color: white;
+    border: 2px none;
+
+}
+
+.white {
+    color: white;
+}
+
+.button1 {
+    font-size: 18px;
+    border: 2px none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 550px) {
+    .sharp {
+        width: 300px;
+        margin: auto;
+        background-color: white;
+        border-radius: 20px;
+
+    }
+
+    .price {
+        font-size: 18px;
+        position: relative;
+        padding: 10px;
+    }
+
+    .icon {
+        width: 40px;
+    }
+
+    .link {
+        font-size: 15px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .article {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 20px 60px;
+    }
+
+    body>div.sharp>section.soft>article {
+        display: inline;
+        white-space: nowrap;
+        padding: 20px 5px;
+        background-color: white;
+
+    }
+}
